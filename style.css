@@ -1,0 +1,143 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#contenu
+{
+    width: 100%;
+    max-width: 1200px;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+}
+nav ul
+{
+    display: flex;
+}
+nav li
+{
+    list-style: none;
+    padding-left: 5%;
+    max-width: 100%;
+}
+main
+{
+    margin-top: 0%;
+}
+#banniere
+{
+    height: 450px;
+    position: relative;
+}
+#imagebanniere
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#imagebanniere img
+{
+    object-fit: cover;
+}
+#logobanniere
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#imagelogobanniere
+{
+    width: 150px;
+}
+#banniere h1
+{
+    color: aliceblue;
+    font-size: 1.5em;
+}
+#description
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#descriptionagence, #descriptionservice
+{
+    margin-top:40px;
+    max-width: 800px;
+}
+#descriptionagence p
+{
+    font-size: 1.2em;
+    color: rgb(87,87,87);
+    text-align: center;
+}
+#descriptionservice
+{
+    display: flex;
+    justify-content: space-around;
+}
+#descriptionservice article
+{
+    text-align: center;
+}
+#descriptionservice h2
+{
+    font-size: 1.5em;
+}
+#retourclient
+{
+    margin-top: 50px;
+    max-width: 500px;
+}
+.retourclient
+{
+    text-align: center;
+    color: rgb(87,87,87);
+}
+.nomclient
+{
+    text-align: center;
+    color: rgb(87,87,87);
+    font-size: 0.7em;
+}
+footer
+{
+    background-color: #5b359d;
+    padding-top: 18px;
+}
+#fin
+{
+    text-align: center;
+    font-size: 0.4em; 
+    font-weight: 400; 
+    color: aliceblue;
+}
+#donnees
+{
+    display: flex;
+    justify-content: space-around;
+}
+.donneesposition h3
+{
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, .6);
+    margin-top: 60px;
+
+}
+.donneesposition p, ul
+{
+    color: aliceblue;
+}
