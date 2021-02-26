@@ -26,8 +26,8 @@ nav ul
 nav li
 {
     list-style: none;
-    padding-left: 5%;
-    max-width: 100%;
+    padding-right: 40%;
+
 }
 main
 {
@@ -116,7 +116,7 @@ main
 footer
 {
     background-color: #5b359d;
-    padding-top: 18px;
+    padding-top: 50px;
 }
 #fin
 {
@@ -137,7 +137,8 @@ footer
     margin-top: 60px;
 
 }
-.donneesposition p, ul
+
+.donneesposition p, .donneesposition ul
 {
     color: aliceblue;
 }
